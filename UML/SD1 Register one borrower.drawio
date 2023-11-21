@@ -1,0 +1,88 @@
+<mxfile host="65bd71144e">
+    <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
+        <mxGraphModel dx="461" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" value="Borrower" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="40" width="20" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Librarian&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="190" y="40" width="20" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
+                    <mxGeometry x="5" y="120" width="10" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="1. registerOneBorrower&lt;br&gt;(u_name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="5" parent="1" source="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-150.5" y="130.0000000000001" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="7" value="6. 고지 및 회원증을 발급해준다." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="5" parent="1" target="3">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="30" y="206" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="40" width="140" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8">
+                    <mxGeometry x="65" y="160" width="10" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;u&gt;uc: {Borrower}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="480" y="40" width="80" height="440" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=rgb(240, 240, 240);fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);fillColor=rgb(24, 20, 29);" vertex="1" parent="11">
+                    <mxGeometry x="35" y="240" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="37" target="47">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="300" y="250" as="sourcePoint"/>
+                        <mxPoint x="456.3636363636365" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="3. Borrower(u_name: String)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
+                    <mxGeometry x="0.5805" relative="1" as="geometry">
+                        <mxPoint x="-63" y="-10" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="2. registerOneBorrower&lt;br&gt;(u_name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" target="37" parent="1" source="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="160" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="5. isRegistered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" source="37" parent="1" target="5">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="236" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="200" width="80" height="280" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;u&gt;u: Borrower&lt;/u&gt;" style="html=1;" vertex="1" parent="48">
+                    <mxGeometry width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=rgb(240, 240, 240);fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);fillColor=rgb(24, 20, 29);" vertex="1" parent="48">
+                    <mxGeometry x="35" y="160" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;4.2. isSaved: boolean&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.875;fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="49" parent="1" target="48">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="450" y="356" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="4.3. display()" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);" edge="1" parent="1" source="37" target="55">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="350" y="360" as="sourcePoint"/>
+                        <mxPoint x="580" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;4.1. save(u: Borrower)&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);entryX=0.998;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="49">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="510" y="290" as="sourcePoint"/>
+                        <mxPoint x="580" y="270" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

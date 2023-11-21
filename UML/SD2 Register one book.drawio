@@ -1,0 +1,79 @@
+<mxfile host="65bd71144e">
+    <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
+        <mxGraphModel dx="58" dy="58" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="Librarian&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="30" y="40" width="20" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="4" source="5" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="4" vertex="1">
+                    <mxGeometry x="5" y="120" width="10" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="130" y="40" width="140" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8" vertex="1">
+                    <mxGeometry x="65" y="120" width="10" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;u&gt;bc: {Book}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="320" y="40" width="80" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=rgb(240, 240, 240);fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);fillColor=rgb(24, 20, 29);" parent="11" vertex="1">
+                    <mxGeometry x="35" y="200" width="10" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="37" target="47" edge="1">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="140" y="250" as="sourcePoint"/>
+                        <mxPoint x="296.3636363636365" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="3. 생성한다(&lt;br&gt;&amp;nbsp;title: String,&lt;br&gt;author: String,&lt;br&gt;c_num: long)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="22" vertex="1" connectable="0">
+                    <mxGeometry x="0.5805" relative="1" as="geometry">
+                        <mxPoint x="-62" y="-30" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="2. registerOneBook(&lt;br&gt;title: String,&lt;br&gt;author: String,&lt;br&gt;c_num: long)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="5" target="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="160" as="sourcePoint"/>
+                        <mxPoint as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="39" value="5. isRegistered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" parent="1" source="37" target="5" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="236" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="48" value=":Object" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="480" y="180" width="80" height="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="47" value="&lt;u&gt;b: Book&lt;/u&gt;" style="html=1;" parent="48" vertex="1">
+                    <mxGeometry width="80" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;strokeColor=rgb(240, 240, 240);fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);fillColor=rgb(24, 20, 29);" parent="48" vertex="1">
+                    <mxGeometry x="35" y="140" width="10" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;4.2.&amp;nbsp;isSaved: boolean&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.875;fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="49" target="48" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="290" y="356" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="54" value="4.3. display()" style="html=1;verticalAlign=bottom;endArrow=block;fontFamily=Helvetica;fontSize=12;fontColor=rgb(240, 240, 240);" parent="1" source="37" target="55" edge="1">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="190" y="360" as="sourcePoint"/>
+                        <mxPoint x="420" y="360" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" value="4.1. save(b: Book)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0.997;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="49">
+                    <mxGeometry width="80" relative="1" as="geometry">
+                        <mxPoint x="370" y="290" as="sourcePoint"/>
+                        <mxPoint x="370" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

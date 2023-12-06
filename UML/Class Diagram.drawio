@@ -1,23 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2023-11-24T05:55:53.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="BB_r89X-C_b-9sch4LCd" version="22.1.3" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-04T15:00:28.758Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="V-YQXZUV7Bj8Csephfxm" version="22.1.5" type="google">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="Milk-nHkZDeJSsroibHT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-1" target="Milk-nHkZDeJSsroibHT-5">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="4uGhfkRg-FRaIyeT05ik-1" target="Milk-nHkZDeJSsroibHT-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-350" y="124" />
+              <mxPoint x="-350" y="124" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-1" value="Library" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="150" y="60" width="160" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-2" value="- name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-1">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-1">
-          <mxGeometry y="52" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-5" value="LibraaryApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="15" width="390" height="150" as="geometry">
+        <mxCell id="Milk-nHkZDeJSsroibHT-5" value="LibraryApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="40" width="390" height="150" as="geometry">
             <mxRectangle x="440" y="47" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -27,61 +23,69 @@
         <mxCell id="Milk-nHkZDeJSsroibHT-8" value="+ LibraryApplication()&lt;br&gt;+ registerOneBorrower(u_name: String): boolean&lt;br&gt;+ registerOneBook(title: String, author: String, ISBN: long): boolean&lt;br&gt;+ displayBooksForLoan(): void&lt;br&gt;+ displayBooksOnLoan(): void&lt;br&gt;+&amp;nbsp;borrowOneBook(ISBN: long, u_name: String): boolean&lt;br&gt;+ returnOneBook(ISBN: long): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-5">
           <mxGeometry y="34" width="390" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;strokeWidth=1;endSize=10;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-13" target="Milk-nHkZDeJSsroibHT-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;strokeWidth=1;endSize=10;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-13" target="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-570" y="144" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-665" y="265" />
+              <mxPoint x="-600" y="265" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-38" value="1..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-17">
           <mxGeometry x="-0.8488" y="2" relative="1" as="geometry">
-            <mxPoint x="-23" y="10" as="offset" />
+            <mxPoint x="-13" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-39" value="bookCollection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-17">
           <mxGeometry x="-0.9065" y="1" relative="1" as="geometry">
-            <mxPoint x="46" as="offset" />
+            <mxPoint x="42" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-44" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-17">
           <mxGeometry x="0.8533" y="-1" relative="1" as="geometry">
-            <mxPoint x="-11" as="offset" />
+            <mxPoint x="-11" y="9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-13" target="Milk-nHkZDeJSsroibHT-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-13" target="Milk-nHkZDeJSsroibHT-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-34" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-26">
           <mxGeometry x="0.7206" y="4" relative="1" as="geometry">
-            <mxPoint x="11" y="19" as="offset" />
+            <mxPoint x="19" y="15" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-35" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-26">
           <mxGeometry x="-0.5556" y="-2" relative="1" as="geometry">
-            <mxPoint x="-23" y="13" as="offset" />
+            <mxPoint x="-35" y="8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-36" value="대출서적" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-26">
           <mxGeometry x="-0.6571" y="3" relative="1" as="geometry">
-            <mxPoint y="-12" as="offset" />
+            <mxPoint x="-6" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-37" value="대출이력" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-26">
           <mxGeometry x="0.7905" y="3" relative="1" as="geometry">
-            <mxPoint x="-14" y="-12" as="offset" />
+            <mxPoint x="-8" y="-6" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-13" value="Book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="355" width="270" height="220" as="geometry" />
+          <mxGeometry x="-790" y="320" width="270" height="330" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-14" value="- title: String&lt;br&gt;- author: String&lt;br&gt;- ISBN: long" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
-          <mxGeometry y="26" width="270" height="54" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-14" value="- title: String&lt;br&gt;- author: String&lt;br&gt;- ISBN: long&lt;br&gt;- loanAddress: Loan(참조변수 관련 문제 해결!!)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
+          <mxGeometry y="26" width="270" height="64" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
-          <mxGeometry y="80" width="270" height="8" as="geometry" />
+          <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-16" value="+ Book(title: String, author: String, ISBN: long)&lt;br&gt;+ display(): void&lt;br&gt;+ checkBookForLoan(): boolean&lt;br&gt;+ checkBookOnLoan(): boolean&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ linkLoan(l: Loan): Book&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
-          <mxGeometry y="88" width="270" height="132" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-16" value="+ Book(title: String, author: String, ISBN: long)&lt;br&gt;+ getTitle(): String&lt;br&gt;+ setTitle(title: String): void&lt;br&gt;+ getAuthor(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setAuthor(author: String): void&lt;br&gt;+ getISBN(): long&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setISBN(ISBN: long): void&lt;br&gt;&lt;br&gt;+ display(): void&lt;br&gt;+ checkBookForLoan(): boolean&lt;br&gt;+ checkBookOnLoan(): boolean&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ linkLoan(l: Loan): Book&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
+          <mxGeometry y="98" width="270" height="232" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-18" value="Loan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="380" y="320" width="230" height="290" as="geometry" />
+          <mxGeometry x="-400" y="320" width="230" height="480" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-19" value="- b: Book&lt;br&gt;- u: Borrower&lt;br&gt;- l_date: int&lt;br&gt;- rd_date: int&lt;br&gt;- r_date: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
           <mxGeometry y="26" width="230" height="84" as="geometry" />
@@ -89,52 +93,64 @@
         <mxCell id="Milk-nHkZDeJSsroibHT-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
           <mxGeometry y="110" width="230" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-21" value="+ Loan(b: Book, u: Borrwer)&lt;br&gt;+ linkBook(b: Book): Loan&lt;br&gt;+ linkBorrower(u: Borrower): Loan&lt;br&gt;+ saveLoanDate(): void&lt;br&gt;+ calculateReturnDueDate(): void&lt;br&gt;+ saveReturnDueDate(rd_date: int): void&lt;br&gt;+ display(): void&lt;br&gt;+ saveReturnDate(r_date: int): void&lt;br&gt;+ unlink(): void&lt;br&gt;+ unlinkBook(): void&lt;br&gt;+ unlinkBorrower(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
-          <mxGeometry y="118" width="230" height="172" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-21" value="+ Loan(b: Book, u: Borrwer)&lt;br&gt;+ getBook(): Book&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBook(b: Book): void&lt;br&gt;+ getBorrower(): Borrower&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBorrower(u: Borrower): void&lt;br&gt;+ getL_Date(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setL_Date(l_date: int): void&lt;br&gt;+ getRD_Date(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setRD_Date(rd_date: int): void&lt;br&gt;+ getR_Date(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setR_Date(r_date: int): void&lt;br&gt;&lt;br&gt;+ linkBook(b: Book): Loan&lt;br&gt;+ linkBorrower(u: Borrower): Loan&lt;br&gt;+ saveLoanDate(): void&lt;br&gt;+ calculateReturnDueDate(): void&lt;br&gt;+ saveReturnDueDate(rd_date: int): void&lt;br&gt;+ display(): void&lt;br&gt;+ saveReturnDate(r_date: int): void&lt;br&gt;+ unlink(): void&lt;br&gt;+ unlinkBook(): void&lt;br&gt;+ unlinkBorrower(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
+          <mxGeometry y="118" width="230" height="362" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-22" target="Milk-nHkZDeJSsroibHT-18">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-22" target="Milk-nHkZDeJSsroibHT-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-80" y="440" />
+              <mxPoint x="-80" y="560" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-30" value="0..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-27">
           <mxGeometry x="0.4914" relative="1" as="geometry">
-            <mxPoint x="-16" y="15" as="offset" />
+            <mxPoint x="-58" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-31" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-27">
           <mxGeometry x="-0.7415" relative="1" as="geometry">
-            <mxPoint x="8" y="15" as="offset" />
+            <mxPoint x="28" y="10" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-32" value="대출이력" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-27">
           <mxGeometry x="0.3605" y="-1" relative="1" as="geometry">
-            <mxPoint x="-15" y="-14" as="offset" />
+            <mxPoint x="-55" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-33" value="대출자" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-27">
           <mxGeometry x="-0.5034" relative="1" as="geometry">
-            <mxPoint x="5" y="-15" as="offset" />
+            <mxPoint x="49" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;endArrow=diamond;endFill=0;startSize=6;endSize=11;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-22" target="Milk-nHkZDeJSsroibHT-1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;startSize=6;endSize=11;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-22" target="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-490" y="144" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="320" />
+              <mxPoint x="130" y="224" />
+              <mxPoint x="-480" y="224" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-42" value="1..m" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-29">
           <mxGeometry x="-0.9802" y="-1" relative="1" as="geometry">
-            <mxPoint x="-21" y="-6" as="offset" />
+            <mxPoint x="-22" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-43" value="borrowerCollection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-29">
           <mxGeometry x="-0.9694" relative="1" as="geometry">
-            <mxPoint x="50" as="offset" />
+            <mxPoint x="50" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-46" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-29">
           <mxGeometry x="0.9446" y="3" relative="1" as="geometry">
-            <mxPoint x="-7" as="offset" />
+            <mxPoint x="-6" y="4" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-22" value="Borrower" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="750" y="385" width="280" height="160" as="geometry" />
+          <mxGeometry y="320" width="280" height="240" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-23" value="- u_name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-22">
           <mxGeometry y="26" width="280" height="26" as="geometry" />
@@ -142,26 +158,75 @@
         <mxCell id="Milk-nHkZDeJSsroibHT-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-22">
           <mxGeometry y="52" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-25" value="+ Borrower(u_name: String)&lt;br&gt;+ display(): void&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ linkLoan(l: Loan): Borrower&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-22">
-          <mxGeometry y="60" width="280" height="100" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-25" value="+ Borrower(u_name: String)&lt;br&gt;+ getU_Name(): String&lt;br&gt;+ setU_Name(u_name: String): void&lt;br&gt;&lt;br&gt;+ display(): void&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ linkLoan(l: Loan): Borrower&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-22">
+          <mxGeometry y="60" width="280" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=diamond;endFill=0;endSize=11;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-18" target="Milk-nHkZDeJSsroibHT-3">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;endSize=11;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-18" target="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-530" y="144.00000000000023" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-265" y="320" />
+              <mxPoint x="-265" y="265" />
+              <mxPoint x="-540" y="265" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-40" value="1..l" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-28">
           <mxGeometry x="-0.9531" y="2" relative="1" as="geometry">
-            <mxPoint x="-23" as="offset" />
+            <mxPoint x="-7" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-41" value="loanCollection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-28">
           <mxGeometry x="-0.9449" y="-3" relative="1" as="geometry">
-            <mxPoint x="42" as="offset" />
+            <mxPoint x="49" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-45" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" connectable="0" vertex="1" parent="Milk-nHkZDeJSsroibHT-28">
           <mxGeometry x="0.8791" y="3" relative="1" as="geometry">
-            <mxPoint x="-7" as="offset" />
+            <mxPoint x="-7" y="-2" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="ayakNGwaA3T7NY6vzEdv-1" target="Milk-nHkZDeJSsroibHT-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-1" value="java.utill.TreeSet" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-715" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="ayakNGwaA3T7NY6vzEdv-2" target="Milk-nHkZDeJSsroibHT-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-2" value="java.utill.LinkedList" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-345" y="840" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="1" source="ayakNGwaA3T7NY6vzEdv-3" target="Milk-nHkZDeJSsroibHT-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ayakNGwaA3T7NY6vzEdv-3" value="java.utill.Hashset" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4uGhfkRg-FRaIyeT05ik-1" value="Library" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=default;strokeColor=inherit;strokeWidth=1;spacingLeft=3;spacingRight=3;spacingTop=-1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="64" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4uGhfkRg-FRaIyeT05ik-2" value="- name: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="4uGhfkRg-FRaIyeT05ik-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelBackgroundColor=default;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry y="52" width="200" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="4uGhfkRg-FRaIyeT05ik-4" value="+ Library()&lt;br&gt;+ getName(): String&lt;br&gt;+ setName(name: String): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" vertex="1" parent="4uGhfkRg-FRaIyeT05ik-1">
+          <mxGeometry y="60" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HYo3HdkM_3qCn836Xysz-1" value="Order" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="230" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="HYo3HdkM_3qCn836Xysz-2" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HYo3HdkM_3qCn836Xysz-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="HYo3HdkM_3qCn836Xysz-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="HYo3HdkM_3qCn836Xysz-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="HYo3HdkM_3qCn836Xysz-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="HYo3HdkM_3qCn836Xysz-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

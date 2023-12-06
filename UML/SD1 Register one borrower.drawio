@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-05T01:37:52.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="NGQw1UF2UYeKSb9zq47x" version="22.1.5" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-06T10:45:11.546Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="d_Bg5dYkciIkt9L1Cc7l" version="22.1.5" type="google">
   <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,12 +16,12 @@
         <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
           <mxGeometry x="5" y="100" width="10" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="1: registerOneBorrower&lt;br&gt;(u_name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="62" target="5">
+        <mxCell id="6" value="1: registerOneBorrower&lt;br&gt;(name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="62" target="5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-150.5" y="130.0000000000001" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="7" value="6. 고지 및 회원증을 발급해준다." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.007;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5" target="62">
+        <mxCell id="7" value="6: 고지 및 회원증을 발급해준다." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.007;exitY=0.999;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="5" target="62">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="30" y="206" as="targetPoint" />
           </mxGeometry>
@@ -32,11 +32,11 @@
         <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8">
           <mxGeometry x="65" y="120" width="10" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="11" value="&lt;u&gt;uc: {Borrower}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="480" y="40" width="80" height="280" as="geometry" />
+        <mxCell id="11" value="&lt;u&gt;borrowerCollection: {Borrower}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="120" height="280" as="geometry" />
         </mxCell>
         <mxCell id="57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="11">
-          <mxGeometry x="35" y="180" width="10" height="20" as="geometry" />
+          <mxGeometry x="55" y="180" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="22" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="37">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -44,17 +44,17 @@
             <mxPoint x="640" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="42" value="3: 객체 생성(u_name: String)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
+        <mxCell id="42" value="3: Borrower(name: String)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="22">
           <mxGeometry x="0.5805" relative="1" as="geometry">
             <mxPoint x="-63" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="38" value="2: registerOneBorrower&lt;br&gt;(u_name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="5" target="37">
+        <mxCell id="38" value="2: registerOneBorrower&lt;br&gt;(name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="5" target="37">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="160" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="39" value="5: isRegistered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.001;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="37" target="5">
+        <mxCell id="39" value="5: isRegistered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.004;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="37" target="5">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="236" as="targetPoint" />
           </mxGeometry>
@@ -65,7 +65,7 @@
         <mxCell id="60" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
           <mxGeometry x="35" y="100" width="10" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="58" value="4.1: save(u: Borrower)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.002;entryY=0.002;dashed=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="57">
+        <mxCell id="58" value="4.1: save(borrower: Borrower)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.002;entryY=0.002;dashed=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="48" target="57">
           <mxGeometry x="0.0012" relative="1" as="geometry">
             <mxPoint x="904.5" y="300.0799999999999" as="sourcePoint" />
             <mxPoint as="offset" />

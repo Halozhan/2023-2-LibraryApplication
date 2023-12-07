@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T05:39:35.361Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="oPfd6SrlT_PYfpe1cZdy" version="22.1.7" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-07T15:41:16.925Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="M8uOEgqdpNWX-IhDqDGX" version="22.1.7" type="google">
   <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4" value="Librarian&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="4" value="Librarian&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="30" y="40" width="20" height="520" as="geometry" />
         </mxCell>
         <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="4" source="5" target="4">
@@ -13,13 +13,13 @@
         <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
           <mxGeometry x="5" y="60" width="10" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="8" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="8" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="120" y="40" width="160" height="560" as="geometry" />
         </mxCell>
         <mxCell id="37" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8">
           <mxGeometry x="75" y="80" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="48" value="&lt;u style=&quot;&quot;&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="48" value="&lt;u style=&quot;&quot;&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="40" width="170" height="560" as="geometry" />
         </mxCell>
         <mxCell id="71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
@@ -53,7 +53,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="&lt;u&gt;bookCollection: {Book}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="11" value="&lt;u&gt;bookCollection: {Book}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
           <mxGeometry x="300" y="40" width="90" height="560" as="geometry" />
         </mxCell>
         <mxCell id="65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="11">

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T10:45:27.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="G96u-00RiHbDPqfhXkP1" version="22.1.5" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-07T06:55:58.150Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="9G3S3hAmxrHfMtaredfi" version="22.1.7" type="google">
   <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,21 +28,22 @@
             <mxPoint x="479" y="160" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="67" value="4.1: save(book: Book)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.002;entryY=0.002;dashed=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KaAlC3mR0z-jHFS7rxjV-70" target="66">
+        <mxCell id="67" value="4.1: add(book: Book)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=1.002;entryY=0.002;dashed=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KaAlC3mR0z-jHFS7rxjV-70" target="66">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="519.5" y="200.03999999999996" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="68" value="4.2: isSaved: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.002;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="66" target="KaAlC3mR0z-jHFS7rxjV-70">
+        <mxCell id="68" value="4.2: isAdded: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1.002;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="66" target="KaAlC3mR0z-jHFS7rxjV-70">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="519.5" y="219.96000000000004" as="targetPoint" />
             <mxPoint x="365" y="280" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="70" value="4.3: display()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;startFill=0;endFill=0;" edge="1" parent="1" source="37" target="69">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
             <mxPoint x="220" y="300" as="sourcePoint" />
             <mxPoint x="510" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KaAlC3mR0z-jHFS7rxjV-70" value="&lt;u&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">

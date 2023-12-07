@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-06T09:17:35.535Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="Kr-pnJr3LUTeKOYhoMeU" version="22.1.5" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-07T05:38:51.897Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="3lfDIK3YTn2pKCPxglKG" version="22.1.5" type="google">
   <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -28,7 +28,7 @@
         <mxCell id="AfErBCL-X82JXNN2fCGl-96" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="11">
           <mxGeometry x="65" y="179.2" width="10" height="20.8" as="geometry" />
         </mxCell>
-        <mxCell id="AfErBCL-X82JXNN2fCGl-97" value="throw new Exception(&quot;한 권도 없음&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="11" source="65" target="AfErBCL-X82JXNN2fCGl-96">
+        <mxCell id="AfErBCL-X82JXNN2fCGl-97" value="throw new Exception(&quot;책이 한 권도 없습니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="11" source="65" target="AfErBCL-X82JXNN2fCGl-96">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="85" y="160" as="sourcePoint" />
             <Array as="points">
@@ -62,13 +62,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="48" value="&lt;u style=&quot;&quot;&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="456" y="40" width="130" height="600" as="geometry" />
+          <mxGeometry x="448" y="40" width="144" height="600" as="geometry" />
         </mxCell>
         <mxCell id="71" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
-          <mxGeometry x="60" y="280" width="10" height="20" as="geometry" />
+          <mxGeometry x="67" y="260" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
-          <mxGeometry x="60" y="320" width="10" height="20" as="geometry" />
+          <mxGeometry x="67" y="320" width="10" height="20" as="geometry" />
         </mxCell>
         <mxCell id="62" value="1: displayBooksForLoan()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;elbow=vertical;entryX=0.001;entryY=0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5" target="37">
           <mxGeometry width="160" relative="1" as="geometry">
@@ -82,10 +82,11 @@
             <mxPoint x="400" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="74" value="2.3: isBookForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.005;exitY=0.997;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="71" target="65">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="460" y="370" as="sourcePoint" />
-            <mxPoint x="380" y="370" as="targetPoint" />
+        <mxCell id="74" value="2.3: isBookForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.002;exitY=0.995;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="71" target="65">
+          <mxGeometry x="-0.0006" relative="1" as="geometry">
+            <mxPoint x="515.95" y="319.93999999999994" as="sourcePoint" />
+            <mxPoint x="365" y="319.93999999999994" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="83" value="2.4: display()" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;entryX=0.003;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="65" target="84">
@@ -94,38 +95,38 @@
             <mxPoint x="515" y="400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="73" value="2.2: checkBookForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.005;entryY=-0.005;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="65" target="71">
+        <mxCell id="73" value="2.2: checkBookForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=-0.002;entryY=0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="65" target="71">
           <mxGeometry x="-0.0019" width="80" relative="1" as="geometry">
-            <mxPoint x="450" y="200" as="sourcePoint" />
-            <mxPoint x="460" y="370" as="targetPoint" />
+            <mxPoint x="365" y="301.9" as="sourcePoint" />
+            <mxPoint x="515.95" y="301.9" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="72" value="loop(0, size)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
-          <mxGeometry x="170" y="280" width="470" height="200" as="geometry" />
+        <mxCell id="AfErBCL-X82JXNN2fCGl-109" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
+          <mxGeometry x="250" y="500" width="395" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AfErBCL-X82JXNN2fCGl-107" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="260" y="290" width="340" height="170" as="geometry" />
-        </mxCell>
-        <mxCell id="AfErBCL-X82JXNN2fCGl-108" value="[isBookForLoan]" style="text" vertex="1" parent="AfErBCL-X82JXNN2fCGl-107">
+        <mxCell id="AfErBCL-X82JXNN2fCGl-110" value="[!atLeastOneOrMoreForLoan]" style="text" vertex="1" parent="AfErBCL-X82JXNN2fCGl-109">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint y="30" as="offset" />
+            <mxPoint x="45" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AfErBCL-X82JXNN2fCGl-91" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="270" y="180" width="330" height="80" as="geometry" />
+          <mxGeometry x="265" y="180" width="365" height="80" as="geometry" />
         </mxCell>
         <mxCell id="AfErBCL-X82JXNN2fCGl-92" value="[isEmpty()]" style="text" vertex="1" parent="AfErBCL-X82JXNN2fCGl-91">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
             <mxPoint x="15" y="30" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AfErBCL-X82JXNN2fCGl-109" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="265" y="500" width="395" height="100" as="geometry" />
+        <mxCell id="72" value="loop(0, size)" style="shape=umlFrame;whiteSpace=wrap;html=1;width=80;height=30;" vertex="1" parent="1">
+          <mxGeometry x="240" y="280" width="400" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="AfErBCL-X82JXNN2fCGl-110" value="[!atLeastOneOrMoreForLoan]" style="text" vertex="1" parent="AfErBCL-X82JXNN2fCGl-109">
+        <mxCell id="AfErBCL-X82JXNN2fCGl-107" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
+          <mxGeometry x="260" y="340" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="AfErBCL-X82JXNN2fCGl-108" value="[isBookForLoan]" style="text" vertex="1" parent="AfErBCL-X82JXNN2fCGl-107">
           <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="45" as="offset" />
+            <mxPoint y="30" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>

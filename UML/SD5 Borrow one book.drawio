@@ -1,334 +1,376 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T15:42:01.076Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="CssHbQ-SEBjYv1425iMO" version="22.1.7" type="google">
-  <diagram id="SbDjxOFhfJFgFubJpmIF" name="Page-1">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+<mxfile host="app.diagrams.net" modified="2023-12-08T01:39:27.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="1bOXGIqrgqUskTVgpyhO" version="22.1.7" type="device">
+  <diagram name="Page-1" id="b5b7bab2-c9e2-2cf4-8b2a-24fd1a2a6d21">
+    <mxGraphModel dx="720" dy="965" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="TPeAZMKuVXmP90iVJPDt-167" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="225" y="740" width="465" height="80" as="geometry" />
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-1" value="Borrower" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;spacingTop=36;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="30" y="40" width="20" height="1600" as="geometry" />
         </mxCell>
-        <mxCell id="TPeAZMKuVXmP90iVJPDt-168" value="[!isAvailableForLoan]" style="text" vertex="1" parent="TPeAZMKuVXmP90iVJPDt-167">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="5" y="30" as="offset" />
-          </mxGeometry>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-8" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-1">
+          <mxGeometry x="5" y="60" width="10" height="1520" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="Librarian&lt;br&gt;" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="190" y="40" width="20" height="1200" as="geometry" />
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-2" value="Librarian" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;spacingTop=36;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="190" y="40" width="20" height="1600" as="geometry" />
         </mxCell>
-        <mxCell id="57" style="edgeStyle=none;html=1;" edge="1" parent="4" target="4">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-9" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-2">
+          <mxGeometry x="5" y="100" width="10" height="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-3" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="310" y="40" width="100" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-12" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-3">
+          <mxGeometry x="45" y="120" width="10" height="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-18" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-3">
+          <mxGeometry x="50" y="240" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-27" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-3">
+          <mxGeometry x="50" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-46" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-3">
+          <mxGeometry x="50" y="740" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-54" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-3">
+          <mxGeometry x="50" y="920" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-4" value="&lt;u&gt;bookCollection: {Book}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="100" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-15" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-4">
+          <mxGeometry x="45" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-5" value="&lt;u&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="100" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-37" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-5">
+          <mxGeometry x="45" y="520" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-43" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-5">
+          <mxGeometry x="45" y="640" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-61" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-5">
+          <mxGeometry x="45" y="1040" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-67" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-5">
+          <mxGeometry x="50" y="1080" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-68" value="setLoan(loan: Loan)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-67" parent="o0BFgWEYsugh6mhAWSTL-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="9.810344827586164" y="140" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="4">
-          <mxGeometry x="5" y="100" width="10" height="1040" as="geometry" />
-        </mxCell>
-        <mxCell id="8" value="&lt;u&gt;app: LibraryApplication&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="290" y="40" width="140" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="105" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8">
-          <mxGeometry x="65" y="120" width="10" height="1000" as="geometry" />
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-168" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8">
-          <mxGeometry x="70" y="280" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-169" value="throw new Exception(&quot;책을 찾을 수 없습니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="8" target="1pm17G0BuQrex6gMhDeV-168">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="260" as="sourcePoint" />
+            <mxPoint x="55" y="1060" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="105" y="260" />
-              <mxPoint x="105" y="280" />
+              <mxPoint x="80" y="1060" />
+              <mxPoint x="80" y="1085" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-176" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8">
-          <mxGeometry x="70" y="400" width="10" height="20" as="geometry" />
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-6" value="&lt;u&gt;borrowerCollection: {Borrower}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="790" y="40" width="100" height="1600" as="geometry" />
         </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-177" value="throw new Exception(&quot;이용자를 찾을 수 없습니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="8" target="1pm17G0BuQrex6gMhDeV-176">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-24" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-6">
+          <mxGeometry x="45" y="330" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-7" value="&lt;u&gt;borrower: Borrower&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="950" y="40" width="100" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-40" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-7">
+          <mxGeometry x="45" y="580" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-51" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-7">
+          <mxGeometry x="45" y="820" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-69" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-7">
+          <mxGeometry x="45" y="1160" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-72" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-7">
+          <mxGeometry x="50" y="1200" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-73" value="setLoan(loan: Loan)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-72" parent="o0BFgWEYsugh6mhAWSTL-7">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="380" as="sourcePoint" />
+            <mxPoint x="55" y="1180" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="105" y="380" />
-              <mxPoint x="105" y="400" />
+              <mxPoint x="80" y="1180" />
+              <mxPoint x="80" y="1205" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPeAZMKuVXmP90iVJPDt-172" value="throw new Exception(&quot;해당 책은 대출 불가능합니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="8" target="TPeAZMKuVXmP90iVJPDt-171">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-11" value="&lt;div&gt;10.2: 반납일자 고지 및&lt;/div&gt;&lt;div&gt;Book, 회원증을 건넨다.&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-9" parent="1" target="o0BFgWEYsugh6mhAWSTL-8">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="74.5" y="580.0046153846154" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="102" y="580" />
-              <mxPoint x="102" y="600" />
-            </Array>
+            <mxPoint x="125" y="195" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="TPeAZMKuVXmP90iVJPDt-171" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8">
-          <mxGeometry x="70" y="598.4661538461539" width="9" height="18.461538461538463" as="geometry" />
-        </mxCell>
-        <mxCell id="I3iJyHl84YaLtHx1L7vB-164" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="8">
-          <mxGeometry x="70" y="740" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="I3iJyHl84YaLtHx1L7vB-165" value="throw new Exception(&quot;해당 이용자는 대출 불가능합니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" edge="1" parent="8" target="I3iJyHl84YaLtHx1L7vB-164">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="720" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="105" y="720" />
-              <mxPoint x="105" y="740" />
-            </Array>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-10" value="&lt;div&gt;1: borrowerOneBook(&lt;/div&gt;&lt;div&gt;ISBN: long,&lt;/div&gt;&lt;div&gt;name: String)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-9" parent="1" source="o0BFgWEYsugh6mhAWSTL-8">
+          <mxGeometry x="-0.0032" relative="1" as="geometry">
+            <mxPoint x="125" y="125" as="sourcePoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="11" value="&lt;u&gt;bookCollection: {Book}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="465" y="40" width="110" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="108" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="11">
-          <mxGeometry x="50" y="140" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="48" value="&lt;u style=&quot;&quot;&gt;book: Book&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="640" y="40" width="80" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="114" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
-          <mxGeometry x="35" y="460" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="121" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
-          <mxGeometry x="35" y="520" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="132" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="48">
-          <mxGeometry x="35" y="840" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="85" value="&lt;u&gt;borrowerCollection:&lt;br&gt;{Borrower}&lt;br&gt;&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="785" y="40" width="110" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="111" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="85">
-          <mxGeometry x="50" y="200" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="86" value="&lt;u&gt;borrower: Borrower&lt;br&gt;&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="960" y="40" width="80" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="118" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="86">
-          <mxGeometry x="35" y="500" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="125" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="86">
-          <mxGeometry x="35" y="660" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="149" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="86">
-          <mxGeometry x="35" y="880" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="87" value="&lt;u style=&quot;border-color: var(--border-color);&quot;&gt;loan: Loan&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="820" width="80" height="420" as="geometry" />
-        </mxCell>
-        <mxCell id="153" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="35" y="80" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="152" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="35" y="120" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="154" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="35" y="160" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="155" value="7.1: saveLoanDate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="87" source="152" target="154">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-13" value="&lt;div&gt;2: borrowerOneBook(&lt;/div&gt;&lt;div&gt;ISBN: long,&lt;/div&gt;&lt;div&gt;name: String)&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-12" parent="1" source="o0BFgWEYsugh6mhAWSTL-9">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="120" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="70" y="140" />
-              <mxPoint x="70" y="160" />
-            </Array>
+            <mxPoint x="285" y="155" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="158" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="35" y="200" width="10" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="159" value="7.2: saveReturnDueDate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="87" source="154" target="158">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-14" value="10.1: isBorrowered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-12" parent="1" target="o0BFgWEYsugh6mhAWSTL-9">
           <mxGeometry x="0.0032" relative="1" as="geometry">
-            <mxPoint x="55" y="185" as="sourcePoint" />
+            <mxPoint x="285" y="225" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-16" value="3.1: find(ISBN: long)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-15" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-17" value="3.2: book: Book" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-15" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="446" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-19" value="throw new Exception(&quot;책을 찾을 수 없습니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" parent="1" target="o0BFgWEYsugh6mhAWSTL-18">
+          <mxGeometry x="0.0053" relative="1" as="geometry">
+            <mxPoint x="365" y="260" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="70" y="180" />
-              <mxPoint x="70" y="200" />
+              <mxPoint x="400" y="260" />
+              <mxPoint x="400" y="285" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="157" value="7.3: calculateReturnDueDate()" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" parent="87" target="156">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-20" value="" style="group;dropTarget=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="240" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-21" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-20">
+          <mxGeometry width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-22" value="[!book]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-20">
+          <mxGeometry y="34.99857142857143" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-25" value="3.3: find(name: String)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-24" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="45" y="220" as="sourcePoint" />
+            <mxPoint x="765" y="375" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-26" value="3.4: borrower: Borrower" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-24" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-28" value="throw new Exception(&quot;이용자를 찾을 수 없습니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-27" parent="1">
+          <mxGeometry x="0.0038" relative="1" as="geometry">
+            <mxPoint x="365" y="460" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="220" />
-              <mxPoint x="75" y="240" />
-              <mxPoint x="50" y="240" />
+              <mxPoint x="400" y="460" />
+              <mxPoint x="400" y="485" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-29" value="" style="group;dropTarget=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="440" width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-30" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-29">
+          <mxGeometry width="400" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-31" value="[!borrower]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-29">
+          <mxGeometry x="-10" y="34.99857142857143" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-39" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-37" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="635" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-38" value="4.1: display()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-37" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="565" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-41" value="4.2: display()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-40" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="625" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-42" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-40" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="695" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-45" value="5.2: isAvailableForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-43" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry x="-0.0009" relative="1" as="geometry">
+            <mxPoint x="605" y="755" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-44" value="5.1: checkAvailableForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-43" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="685" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-47" value="throw new Exception(&quot;해당 책은 대출 불가능합니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-46" parent="1">
+          <mxGeometry x="0.0063" relative="1" as="geometry">
+            <mxPoint x="365" y="760" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="760" />
+              <mxPoint x="400" y="785" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-48" value="" style="group;dropTarget=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="740" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-49" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-48">
+          <mxGeometry width="479.99999999999994" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-50" value="[!isAvailableForLoan]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-48">
+          <mxGeometry x="-11.162790697674419" y="34.99857142857143" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-52" value="5.3: checkAvailableForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-51" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="865" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-53" value="5.4: isAvailableForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-51" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="925" y="935" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-55" value="throw new Exception(&quot;해당 이용자는 대출 불가능합니다.&quot;)" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-54" parent="1">
+          <mxGeometry x="0.0063" relative="1" as="geometry">
+            <mxPoint x="365" y="940" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="400" y="940" />
+              <mxPoint x="400" y="965" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-56" value="" style="group;dropTarget=0;" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="220" y="920" width="480" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-57" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-56">
+          <mxGeometry width="479.99999999999994" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-58" value="[!isAvailableForLoan]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-56">
+          <mxGeometry x="-11.162790697674419" y="34.99857142857143" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-59" value="6.1: Loan(book: Book, borrower: Borrower)" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;" edge="1" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
+          <mxGeometry x="0.0002" width="160" relative="1" as="geometry">
+            <mxPoint x="430" y="1070" as="sourcePoint" />
+            <mxPoint x="1110" y="1040" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-60" value="&lt;u&gt;loan: Loan&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1110" y="1020" width="100" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-74" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="60" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-75" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="180" width="10" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-79" value="" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" edge="1" parent="o0BFgWEYsugh6mhAWSTL-60" source="o0BFgWEYsugh6mhAWSTL-74" target="o0BFgWEYsugh6mhAWSTL-75">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-60" y="310" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="155" />
+              <mxPoint x="80" y="185" />
+            </Array>
+            <mxPoint x="-55" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-80" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="300" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-81" value="7.1: saveLoanDate()" style="html=1;align=right;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-80" parent="o0BFgWEYsugh6mhAWSTL-60" source="o0BFgWEYsugh6mhAWSTL-75">
+          <mxGeometry x="0.4286" relative="1" as="geometry">
+            <mxPoint x="50" y="280" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="60" y="275" />
+              <mxPoint x="60" y="290" />
+              <mxPoint x="20" y="290" />
+              <mxPoint x="20" y="305" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-82" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=right;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="340" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-83" value="7.2: saveReturnDueDate()" style="html=1;align=right;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-82" parent="o0BFgWEYsugh6mhAWSTL-60" source="o0BFgWEYsugh6mhAWSTL-80">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="20" y="315" />
+              <mxPoint x="20" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="156" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="40" y="240" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="163" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="87">
-          <mxGeometry x="35" y="320" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="89" value="1: borrowerOneBook(&lt;br&gt;ISBN: long,&lt;br&gt;name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="91" target="88">
-          <mxGeometry x="-0.0019" relative="1" as="geometry">
-            <mxPoint x="200" y="160" as="sourcePoint" />
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-86" value="7.3: calculateReturnDueDate()" style="html=1;align=right;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-87" parent="o0BFgWEYsugh6mhAWSTL-60" source="o0BFgWEYsugh6mhAWSTL-82">
+          <mxGeometry x="-0.0022" relative="1" as="geometry">
+            <mxPoint x="40" y="350" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="15" y="360" />
+              <mxPoint x="15" y="385" />
+            </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="90" value="10.2: 반납일자 고지 및&lt;br&gt;Book, 회원증을 건넨다." style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.001;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="88" target="91">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-87" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};align=right;" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="40" y="380" width="10" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-92" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="440" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-93" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-60">
+          <mxGeometry x="45" y="500" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-63" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="o0BFgWEYsugh6mhAWSTL-61" parent="1" target="o0BFgWEYsugh6mhAWSTL-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="280" y="186" as="targetPoint" />
+            <mxPoint x="755" y="1175" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="96" value="Borrower" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="30" y="40" width="20" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="97" style="edgeStyle=none;html=1;" edge="1" parent="96" target="96">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-62" value="6.2: linkLoan(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-61" parent="1" source="o0BFgWEYsugh6mhAWSTL-74">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="9.810344827586164" y="140" as="sourcePoint" />
+            <mxPoint x="755" y="1105" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="91" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="96">
-          <mxGeometry x="5" y="70" width="10" height="1090" as="geometry" />
-        </mxCell>
-        <mxCell id="106" value="2: borrowerOneBook(&lt;br&gt;ISBN: long,&lt;br&gt;name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="88" target="105">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-70" value="6.4: linkLoan(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;exitX=0;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-69" parent="1" source="o0BFgWEYsugh6mhAWSTL-75">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205" y="160" as="sourcePoint" />
+            <mxPoint x="1075" y="1205" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="107" value="10.1: isBorrowered: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.001;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="105" target="88">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="205" y="482.9999999999993" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="109" value="3.1: find(ISBN: long)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="105" target="108">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="210" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="110" value="3.2: book: Book" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="108" target="105">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="440" y="286" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="112" value="3.3: find(name: String)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="105" target="111">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="300" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="113" value="3.4: borrower: Borrower" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="111" target="105">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="319" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="117" value="4.1: display()" style="html=1;verticalAlign=bottom;endArrow=open;entryX=0.001;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="105" target="114">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="365" y="534.94" as="sourcePoint" />
-            <mxPoint x="630" y="595" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="119" value="4.2: display()" style="html=1;verticalAlign=bottom;endArrow=open;entryX=0.001;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="105" target="118">
-          <mxGeometry width="80" relative="1" as="geometry">
-            <mxPoint x="365" y="574.94" as="sourcePoint" />
-            <mxPoint x="950" y="635.06" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="120" value="&lt;u&gt;loanCollection: {Loan}&lt;br&gt;&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;dropTarget=0;" vertex="1" parent="1">
-          <mxGeometry x="1310" y="40" width="100" height="1200" as="geometry" />
-        </mxCell>
-        <mxCell id="160" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="120">
-          <mxGeometry x="45" y="1060" width="10" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="122" value="5.1: checkAvailableForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="105" target="121">
-          <mxGeometry x="0.0011" relative="1" as="geometry">
-            <mxPoint x="365" y="595" as="sourcePoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="123" value="5.2: isAvailableForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=-0.004;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="121" target="105">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="615" as="targetPoint" />
-            <mxPoint x="670" y="615" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="126" value="5.3: checkAvailableForLoan()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="105" target="125">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="750" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="127" value="5.4: isAvailableForLoan: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="125" target="105">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="365" y="769" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="129" value="" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;" edge="1" parent="1" source="105">
-          <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="365" y="840" as="sourcePoint" />
-            <mxPoint x="1160" y="840" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="139" value="6.1: Loan(book: Book, borrower: Borrower)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="129">
-          <mxGeometry x="0.0909" y="-2" relative="1" as="geometry">
-            <mxPoint x="218" y="-12" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="133" value="6.2: linkLoan(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=open;entryX=1;entryY=0;endFill=0;" edge="1" parent="1" source="87" target="132">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-71" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="o0BFgWEYsugh6mhAWSTL-69" parent="1" target="o0BFgWEYsugh6mhAWSTL-75">
           <mxGeometry x="-0.0004" relative="1" as="geometry">
-            <mxPoint x="1209.5" y="1055" as="sourcePoint" />
+            <mxPoint x="1075" y="1275" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="138" value="6.3: linkBook(book: Book)" style="html=1;verticalAlign=bottom;endArrow=open;entryX=0.002;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.005;exitY=1.001;exitDx=0;exitDy=0;exitPerimeter=0;endFill=0;" edge="1" parent="1" source="132" target="153">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-88" value="&lt;u&gt;loanCollection: {Loan}&lt;/u&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="1270" y="40" width="100" height="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-89" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="o0BFgWEYsugh6mhAWSTL-88">
+          <mxGeometry x="45" y="1420" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-90" value="8.1: add(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" edge="1" target="o0BFgWEYsugh6mhAWSTL-89" parent="1" source="o0BFgWEYsugh6mhAWSTL-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="686" y="1072" as="sourcePoint" />
-            <mxPoint x="695" y="1045" as="targetPoint" />
+            <mxPoint x="1230" y="1490" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="150" value="6.4: linkLoan(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=open;entryX=1;entryY=0;endFill=0;" edge="1" parent="1" source="153" target="149">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-91" value="8.2: isAdded: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;entryX=1;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" edge="1" source="o0BFgWEYsugh6mhAWSTL-89" parent="1" target="o0BFgWEYsugh6mhAWSTL-92">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1209.5" y="1095" as="sourcePoint" />
+            <mxPoint x="1246" y="1535" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="151" value="6.5: linkBorrower(borrower: Borrower)" style="html=1;verticalAlign=bottom;endArrow=open;exitX=1.002;exitY=0.996;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.003;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;endFill=0;" edge="1" parent="1" source="149" target="152">
-          <mxGeometry x="-0.0028" relative="1" as="geometry">
-            <mxPoint x="1006" y="1112" as="sourcePoint" />
-            <mxPoint x="1479.5" y="1112" as="targetPoint" />
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-172" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="280" y="400" width="380" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-173" value="[!borrower]" style="text" vertex="1" parent="1pm17G0BuQrex6gMhDeV-172">
-          <mxGeometry width="60" height="20" relative="1" as="geometry">
-            <mxPoint x="15" y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-166" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="280" y="280" width="380" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="1pm17G0BuQrex6gMhDeV-167" value="[!book]" style="text" vertex="1" parent="1pm17G0BuQrex6gMhDeV-166">
-          <mxGeometry width="40" height="20" relative="1" as="geometry">
-            <mxPoint x="15" y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="161" value="8.1: add(loan: Loan)" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" edge="1" parent="1" source="158" target="160">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-94" value="9: display()" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" edge="1" target="o0BFgWEYsugh6mhAWSTL-93" parent="1" source="o0BFgWEYsugh6mhAWSTL-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1240" y="1115" as="sourcePoint" />
+            <mxPoint x="1085" y="1525" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="162" value="8.2: isAdded: boolean" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;" edge="1" parent="1" source="160" target="87">
+        <mxCell id="o0BFgWEYsugh6mhAWSTL-95" value="void" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" edge="1" source="o0BFgWEYsugh6mhAWSTL-93" parent="1" target="o0BFgWEYsugh6mhAWSTL-12">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1209.1666666666665" y="1124" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ywTslWf9SsOyT9o8SpFd-187" value="alt" style="shape=umlFrame;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;width=40;height=30;" vertex="1" parent="1">
-          <mxGeometry x="226" y="600" width="434" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="ywTslWf9SsOyT9o8SpFd-188" value="[!isAvailableForLoan]" style="text" vertex="1" parent="ywTslWf9SsOyT9o8SpFd-187">
-          <mxGeometry width="100" height="20" relative="1" as="geometry">
-            <mxPoint x="4" y="30" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="164" value="9: display()" style="html=1;verticalAlign=bottom;startArrow=none;endArrow=open;startSize=8;startFill=0;endFill=0;" edge="1" parent="1" source="105" target="163">
-          <mxGeometry x="0.0006" relative="1" as="geometry">
-            <mxPoint x="365" y="1110" as="sourcePoint" />
-            <mxPoint as="offset" />
+            <mxPoint x="1085" y="1595" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>

@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T06:10:04.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36" etag="gZZKwj18vicfxLIgIsrt" version="22.1.5" type="google">
+<mxfile host="app.diagrams.net" modified="2023-12-12T11:26:02.768Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="c1cCyRVN2tT_yfYlBgOc" version="22.1.7" type="google">
   <diagram name="Page-1" id="c4acf3e9-155e-7222-9cf6-157b1a14988f">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
       <root>
@@ -13,15 +13,15 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-5" value="LibraryApplication" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-280" y="61" width="390" height="150" as="geometry">
+          <mxGeometry x="-280" y="61" width="390" height="160" as="geometry">
             <mxRectangle x="440" y="47" width="150" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-5">
           <mxGeometry y="26" width="390" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-8" value="+ LibraryApplication()&lt;br&gt;+ registerOneBorrower(name: String): boolean&lt;br&gt;+ registerOneBook(title: String, author: String, ISBN: long): boolean&lt;br&gt;+ displayBooksForLoan(): void&lt;br&gt;+ displayBooksOnLoan(): void&lt;br&gt;+&amp;nbsp;borrowOneBook(ISBN: long, name: String): boolean&lt;br&gt;+ returnOneBook(ISBN: long): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-5">
-          <mxGeometry y="34" width="390" height="116" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-8" value="+ LibraryApplication()&lt;br&gt;+ registerOneBorrower(name: String): boolean&lt;br&gt;+ registerOneBook(title: String, author: String, ISBN: long): boolean&lt;br&gt;+ displayBooksForLoan(): void&lt;br&gt;+ displayBooksOnLoan(): void&lt;br&gt;+&amp;nbsp;borrowOneBook(ISBN: long, name: String): boolean&lt;br&gt;+ returnOneBook(ISBN: long): boolean&lt;br&gt;+ displayClassifiedBooks(classificationNumber: int): boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-5">
+          <mxGeometry y="34" width="390" height="126" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;endArrow=diamond;endFill=0;strokeWidth=1;endSize=10;" edge="1" parent="1" source="Milk-nHkZDeJSsroibHT-13" target="4uGhfkRg-FRaIyeT05ik-1">
           <mxGeometry relative="1" as="geometry">
@@ -70,7 +70,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-13" value="Book" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-791" y="320" width="270" height="360" as="geometry" />
+          <mxGeometry x="-791" y="320" width="270" height="450" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-14" value="- title: String&lt;br&gt;- author: String&lt;br&gt;- ISBN: long&lt;br&gt;- loan: Loan" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
           <mxGeometry y="26" width="270" height="64" as="geometry" />
@@ -78,8 +78,8 @@
         <mxCell id="Milk-nHkZDeJSsroibHT-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
           <mxGeometry y="90" width="270" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-16" value="+ Book(title: String, author: String, ISBN: long)&lt;br&gt;+ getTitle(): String&lt;br&gt;+ setTitle(title: String): void&lt;br&gt;+ getAuthor(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setAuthor(author: String): void&lt;br&gt;+ getISBN(): long&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setISBN(ISBN: long): void&lt;br&gt;+ getLoan(): Loan&lt;br&gt;+ setLoan(loan: Loan): void&lt;br&gt;&lt;br&gt;+ display(): void&lt;br&gt;+ checkBookForLoan(): boolean&lt;br&gt;+ checkBookOnLoan(): boolean&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ linkLoan(loan: Loan): void&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
-          <mxGeometry y="98" width="270" height="262" as="geometry" />
+        <mxCell id="Milk-nHkZDeJSsroibHT-16" value="+ Book(title: String, author: String, ISBN: long)&lt;br&gt;+ getTitle(): String&lt;br&gt;+ setTitle(title: String): void&lt;br&gt;+ getAuthor(): String&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setAuthor(author: String): void&lt;br&gt;+ getISBN(): long&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setISBN(ISBN: long): void&lt;br&gt;+ getLoan(): Loan&lt;br&gt;+ setLoan(loan: Loan): void&lt;br&gt;&lt;br&gt;+ display(): void&lt;br&gt;+ checkBookForLoan(): boolean&lt;br&gt;+ checkBookOnLoan(): boolean&lt;br&gt;+ checkAvailableForLoan(): boolean&lt;br&gt;+ checkClassifiedBook(classificationNumber&lt;br&gt;: int): boolean&lt;br&gt;+ linkLoan(loan: Loan): void&lt;br&gt;+ findLoan(): Loan&lt;br&gt;+ unlinkLoan(): void&lt;br&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-13">
+          <mxGeometry y="98" width="270" height="352" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-18" value="Loan" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-400" y="320" width="280" height="480" as="geometry">
@@ -92,7 +92,7 @@
         <mxCell id="Milk-nHkZDeJSsroibHT-20" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
           <mxGeometry y="110" width="280" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="Milk-nHkZDeJSsroibHT-21" value="+ Loan(book: Book, borrower: Borrwer)&lt;br&gt;+ getBook(): Book&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBook(book: Book): void&lt;br&gt;+ getBorrower(): Borrower&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBorrower(borrower: Borrower): void&lt;br&gt;+ getLoanDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setLoanDate(loanDate: int): void&lt;br&gt;+ getReturnDueDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setReturnDueDate(returnDueDate: int): void&lt;br&gt;+ getReturnDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setReturnDate(returnDate: int): void&lt;br&gt;&lt;br&gt;+ linkBook(book: Book): Loan&lt;br&gt;+ linkBorrower(borrower: Borrower): Loan&lt;br&gt;+ saveLoanDate(): void&lt;br&gt;+ saveReturnDueDate(): void&lt;br&gt;+ calculateReturnDueDate(): int&lt;br&gt;+ display(): void&lt;br&gt;+ unlink(): void&lt;br&gt;+ unlinkBook(): void&lt;br&gt;+ unlinkBorrower(): void&lt;br&gt;+ saveReturnedDate(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
+        <mxCell id="Milk-nHkZDeJSsroibHT-21" value="+ Loan(book: Book, borrower: Borrwer)&lt;br&gt;+ getBook(): Book&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBook(book: Book): void&lt;br&gt;+ getBorrower(): Borrower&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setBorrower(borrower: Borrower): void&lt;br&gt;+ getLoanDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setLoanDate(loanDate: int): void&lt;br&gt;+ getReturnDueDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setReturnDueDate(returnDueDate: int): void&lt;br&gt;+ getReturnedDate(): int&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;+ setReturnedDate(returnDate: int): void&lt;br&gt;&lt;br&gt;+ linkBook(book: Book): Loan&lt;br&gt;+ linkBorrower(borrower: Borrower): Loan&lt;br&gt;+ saveLoanDate(): void&lt;br&gt;+ saveReturnDueDate(): void&lt;br&gt;+ calculateReturnDueDate(): int&lt;br&gt;+ display(): void&lt;br&gt;+ unlink(): void&lt;br&gt;+ unlinkBook(): void&lt;br&gt;+ unlinkBorrower(): void&lt;br&gt;+ saveReturnedDate(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Milk-nHkZDeJSsroibHT-18">
           <mxGeometry y="118" width="280" height="362" as="geometry" />
         </mxCell>
         <mxCell id="Milk-nHkZDeJSsroibHT-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;entryX=1.008;entryY=0.422;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
@@ -192,7 +192,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ayakNGwaA3T7NY6vzEdv-1" value="java.utill.TreeSet" style="shape=note2;boundedLbl=1;whiteSpace=wrap;html=1;size=25;verticalAlign=top;align=center;" vertex="1" parent="1">
-          <mxGeometry x="-715" y="720" width="120" height="60" as="geometry" />
+          <mxGeometry x="-716" y="840" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="ayakNGwaA3T7NY6vzEdv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;" edge="1" parent="1" source="ayakNGwaA3T7NY6vzEdv-2" target="Milk-nHkZDeJSsroibHT-18">
           <mxGeometry relative="1" as="geometry" />

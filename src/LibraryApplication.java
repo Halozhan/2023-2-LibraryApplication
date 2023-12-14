@@ -285,10 +285,76 @@ public class LibraryApplication {
     }
 
     public boolean borrowOneBook(long ISBN, String name) {
-        return true;
+        Iterator<Book> bookIter = bookCollection.iterator();
+        Book book = null;
+        while (bookIter.hasNext()) {
+            book = bookIter.next();
+            if (ISBN == book.getISBN()) {
+                break;
+            }
+        }
+        if (book == null) {
+            System.out.println("책을 찾을 수 없습니다.");
+            return false;
+        }
+
+        Iterator<Borrower> borrowerIter = borrowerCollection.iterator();
+        Borrower borrower = null;
+        while (borrowerIter.hasNext()) {
+            borrower = borrowerIter.next();
+            if (name.equals(borrower.getName())) {
+                break;
+            }
+        }
+        if (borrower == null) {
+            System.out.println("이용자를 찾을 수 없습니다.");
+            return false;
+        }
+
+        book.display();
+        borrower.display();
+
+        if (!book.checkAvailableForLoan()) {
+            System.out.println("해당 책은 대출 불가능합니다.");
+            return false;
+        }
+
+        if (!borrower.checkAvailableForLoan()) {
+            System.out.println("해당 이용자는 대출 불가능합니다.");
+            return false;
+        }
+
+        Loan loan = new Loan(book, borrower);
+        book.linkLoan(loan);
+        borrower.linkLoan(loan);
+        loan.saveLoanDate();
+        loan.saveReturnDueDate();
+
+        boolean isAdded = loanCollection.add(loan);
+
+        loan.display();
+        return isAdded;
     }
 
     public boolean returnOneBook(long ISBN) {
+        Iterator<Book> bookIter = bookCollection.iterator();
+        Book book = null;
+        while (bookIter.hasNext()) {
+            book = bookIter.next();
+            if (ISBN == book.getISBN()) {
+                break;
+            }
+        }
+        if (book == null) {
+            System.out.println("책을 찾을 수 없습니다.");
+            return false;
+        }
+        
+        Loan loan = book.findLoan();
+        loan.unlink();
+        loan.saveReturnedDate();
+
+        loan.display();
         return true;
     }
 }

@@ -1,12 +1,6 @@
 import java.util.TreeSet;
 import java.util.LinkedList;
 import java.util.HashSet;
-import java.io.BufferedInputStream;
-import java.io.BufferedOutputStream;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
 import java.util.Iterator;
 import java.util.Scanner;
 
@@ -17,9 +11,6 @@ public class LibraryApplication {
     
     public static void main(String[] args) {
         LibraryApplication app = new LibraryApplication();
-        app.borrowerCollectionRead();
-        app.loanCollectionRead();
-        app.bookCollectionRead();
 
         Scanner scanner = new Scanner(System.in);
 
@@ -85,147 +76,9 @@ public class LibraryApplication {
                 case 7:
                     System.out.println("Bye");
                     scanner.close();
-                    app.borrowerCollectionWrite();
-                    app.loanCollectionWrite();
-                    app.bookCollectionWrite();
                     return;
             }
         }
-    }
-
-    public void borrowerCollectionRead() {
-        FileInputStream fis = null;
-        BufferedInputStream bis = null;
-        ObjectInputStream ois = null;
-        try {
-            fis = new FileInputStream("borrowerCollection.bin");
-            bis = new BufferedInputStream(fis);
-            ois = new ObjectInputStream(bis);
-            Object object = ois.readObject();
-
-            borrowerCollection = (TreeSet<Borrower>) object;
-        } catch (Exception e) {
-            System.out.println("borrowerCollection.bin을 읽는 도중 오류가 발생했습니다.");
-        } finally {
-            try {
-                if (ois != null) ois.close();
-                if (bis != null) bis.close();
-                if (fis != null) fis.close();
-            } catch (Exception e) {
-                System.out.println("borrowerCollection.bin을 닫는 도중 오류가 발생했습니다.");
-            }
-        }
-    }
-
-    public void borrowerCollectionWrite() {
-        FileOutputStream fos = null;
-        BufferedOutputStream bos = null;
-        ObjectOutputStream oos = null;
-        try {
-            fos = new FileOutputStream("borrowerCollection.bin");
-            bos = new BufferedOutputStream(fos);
-            oos = new ObjectOutputStream(bos);
-            oos.writeObject(borrowerCollection);
-        } catch (Exception e) {
-            System.out.println("borrowerCollection.bin을 쓰는 도중 오류가 발생했습니다.");
-        } finally {
-            try {
-                if (bos != null) bos.close();
-                if (fos != null) fos.close();
-            } catch (Exception e) {
-                System.out.println("borrowerCollection.bin을 닫는 도중 오류가 발생했습니다.");
-            }
-        }
-    }
-
-    public void loanCollectionRead() {
-        FileInputStream fis = null;
-        BufferedInputStream bis = null;
-        ObjectInputStream ois = null;
-        try {
-            fis = new FileInputStream("loanCollection.bin");
-            bis = new BufferedInputStream(fis);
-            ois = new ObjectInputStream(bis);
-            Object object = ois.readObject();
-
-            loanCollection = (LinkedList<Loan>) object;
-        } catch (Exception e) {
-            System.out.println("loanCollection.bin을 읽는 도중 오류가 발생했습니다.");
-        } finally {
-            try {
-                if (ois != null) ois.close();
-                if (bis != null) bis.close();
-                if (fis != null) fis.close();
-            } catch (Exception e) {
-                System.out.println("loanCollection.bin을 닫는 도중 오류가 발생했습니다.");
-            }
-        }
-    }
-
-    public void loanCollectionWrite() {
-        FileOutputStream fos = null;
-        BufferedOutputStream bos = null;
-        ObjectOutputStream oos = null;
-        try {
-            fos = new FileOutputStream("loanCollection.bin");
-            bos = new BufferedOutputStream(fos);
-            oos = new ObjectOutputStream(bos);
-            oos.writeObject(loanCollection);
-        } catch (Exception e) {
-            System.out.println("loanCollection.bin을 쓰는 도중 오류가 발생했습니다.");
-        } finally {
-            try {
-                if (bos != null) bos.close();
-                if (fos != null) fos.close();
-            } catch (Exception e) {
-                System.out.println("loanCollection.bin을 닫는 도중 오류가 발생했습니다.");
-            }
-        }
-    }
-
-    public void bookCollectionRead() {
-        FileInputStream fis = null;
-		BufferedInputStream bis = null;
-		ObjectInputStream ois = null;
-		try {
-			fis = new FileInputStream("bookCollection.bin");
-			bis = new BufferedInputStream(fis);
-			ois = new ObjectInputStream(bis);
-			Object object = ois.readObject();
-
-            bookCollection = (HashSet<Book>) object;
-		} catch (Exception e) {
-			System.out.println("bookCollection.bin을 읽는 도중 오류가 발생했습니다.");
-		} finally {
-			try {
-				if (ois != null) ois.close();
-				if (bis != null) bis.close();
-				if (fis != null) fis.close();
-			} catch (Exception e) {
-				System.out.println("bookCollection.bin을 닫는 도중 오류가 발생했습니다.");
-			}
-		}
-    }
-
-    public void bookCollectionWrite() {
-        FileOutputStream fos = null;
-		BufferedOutputStream bos = null;
-		ObjectOutputStream oos = null;
-		try {
-			fos = new FileOutputStream("bookCollection.bin");
-			bos = new BufferedOutputStream(fos);
-			oos = new ObjectOutputStream(bos);
-			oos.writeObject(bookCollection);
-		} catch (Exception e) {
-			System.out.println("bookCollection.bin을 쓰는 도중 오류가 발생했습니다.");
-		} finally {
-			try {
-				if (bos != null) bos.close();
-				if (fos != null) fos.close();
-			} catch (Exception e) {
-				System.out.println("bookCollection.bin을 닫는 도중 오류가 발생했습니다.");
-			}
-		}
     }
 
     public boolean registerOneBorrower(String name) {

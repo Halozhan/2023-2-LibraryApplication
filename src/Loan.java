@@ -17,9 +17,7 @@ public class Loan {
     }
 
     public void setBook(Book book) {
-        if (book != null) {
-            this.book = book;
-        }
+        this.book = book;
     }
 
     public Borrower getBorrower() {
@@ -27,9 +25,7 @@ public class Loan {
     }
 
     public void setBorrower(Borrower borrower) {
-        if (borrower != null) {
-            this.borrower = borrower;
-        }
+        this.borrower = borrower;
     }
 
     public int getLoanDate() {
@@ -92,7 +88,9 @@ public class Loan {
 
     public void unlink() {
         unlinkBook();
+        setBook(null);
         unlinkBorrower();
+        setBorrower(null);
     }
 
     public void unlinkBook() {
